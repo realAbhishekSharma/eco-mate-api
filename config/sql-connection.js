@@ -3,7 +3,7 @@ const {Sequelize} = require("sequelize")
 const sqlConnection = new Sequelize({
     host: 'localhost',
     username : "root",
-    password : "password",
+    password : "chek123456",
     database : "eco_mate",
     dialect: 'mysql',
     timezone : "+05:45"
