@@ -1,9 +1,9 @@
 const {Sequelize} = require("sequelize")
-
+// password need for database
 const sqlConnection = new Sequelize({
     host: 'localhost',
     username : "root",
-    password : "chek123456",
+    password : "password",
     database : "eco_mate",
     dialect: 'mysql',
     timezone : "+05:45"
